@@ -6,9 +6,9 @@
 //    $jour2=date('d/m/Y',strtotime('2020-04-01'));
 //    echo $jour2.'<br>'.'<br>';
 
-    $jour=date('d/m/Y',strtotime('2001-03-12'));
+    $jour=date('lFd,Y');
     echo $jour.'<br>';
-    echo date('12,04,13,2001');
-
+    $jour2 = date(F,d,Y,a);
+    echo $jour2.'<br>';
 
 ?>
