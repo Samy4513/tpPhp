@@ -8,7 +8,7 @@
 
     $jour=date('lFd,Y');
     echo $jour.'<br>';
-    $jour2 = date('F , d , Y , g i a');
+    $jour2 = date('F , d , Y , g:i a');
     echo $jour2.'<br>' ;
 
 ?>
