@@ -15,7 +15,7 @@
    $var1=6;
    $var2=1.3;
    $var3='Variable3';
-   echo"$var1+$var2" . "\n";
+   echo"$var1+$var2" . '<br>';
    echo$var1+$var2;
 
 ;?>
