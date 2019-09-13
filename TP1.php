@@ -9,6 +9,6 @@
 </html>
 
 <?php
-echo'<strong>VoicimonpremierprogrammePHP</strong><br/>'."\n";
-echo'C\'estpasmalnon?<br/>'
+echo'<strong>Voici mon premier programme PHP</strong><br/>'."\n";
+echo'C\'est pas mal non?<br/>'
 ;?>
