@@ -22,6 +22,6 @@
 
 <?php
     start_page('Test');
-    end_page();
+     end_page();
 ;?>
 
