@@ -8,3 +8,7 @@
 </body>
 </html>
 
+<?php
+echo'<strong>VoicimonpremierprogrammePHP</strong><br/>'."\n";
+echo'C\'estpasmalnon?<br/>'
+;?>
