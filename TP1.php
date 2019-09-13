@@ -19,6 +19,13 @@
              <body>'.PHP_EOL;
     };
 
-    start_page('titre');
+    function end_page()
+    {
+      echo '  </body>
+              </html>';
+    }
+
+    start_page('Test');
+    end_page();
 
 ;?>
