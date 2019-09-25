@@ -1,4 +1,4 @@
-<form action="calcul.php" method="post">
+<form action="Calcul.php" method="post">
 
     <input type="text" name="calcul" ><br>
     <input checked="checked"   type="radio"    name="op"     value="*"/> * <br/>
