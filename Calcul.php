@@ -21,7 +21,7 @@ else
     echo '<br/><strong>opérateur ' . $op . ' non géré </strong>';
 }
 
-$operateurs='*+-/';
+
 
 for($cpt=0;$cpt<=3;++$cpt)
 {
