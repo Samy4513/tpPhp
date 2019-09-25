@@ -4,11 +4,9 @@
 <input type="text" value="ID"/><br>
 <input type="radio" value="Sexe"/><br>
 <input type="text" value="E-Mail"/><br>
-<h1> Mot de passe <br>
-    <input type="password" value="Mdp"/><br>
-    Verification mdp <br>
-    <input type="password" value="Mdp"/><br>
-</h1>
+    <input type="password" placeholder="Mdp" /><br>
+    <input type="password" placeholder="Retapez Mdp" /><br>
+
 
 <input type="text" value="Telephone"/><br>
 <select name="Pays">
