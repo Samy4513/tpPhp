@@ -7,9 +7,9 @@
 //    echo $jour2.'<br>'.'<br>';
 
 
-<input checked="checked" type="radio" name="op" value="*"/>*<br/>
-<input type="radio" name="op1" value="+"/>+<br/>
-<input type="radio" name="op2" value="-"/>-<br/>
-<input type="radio" name="op3" value="/"/>/<br/>
+<input checked="checked"   type="radio"    name="op"     value="*"/> *;
+<input type="radio"        name="op1"      value="+"/> + ;
+<input type="radio"        name="op2"      value="-"/> - ;
+<input type="radio"        name="op3"      value="/"/> / ;
 
 ?>
