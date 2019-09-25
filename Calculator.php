@@ -2,6 +2,7 @@
 
 
 <?php
+include'utils.inc.php';
 $operateurs='*+-/';
 ?>
 
