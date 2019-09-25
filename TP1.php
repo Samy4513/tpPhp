@@ -9,9 +9,9 @@
 ?>
 <form action="calcul.php" method="post">
 
-    <input checked="checked"   type="radio"    name="op"     value="*"/> *;
-    <input type="radio"        name="op1"      value="+"/> + ;
-    <input type="radio"        name="op2"      value="-"/> - ;
-    <input type="radio"        name="op3"      value="/"/> / ;
+    <input checked="checked"   type="radio"    name="op"     value="*"/> * <br/>;
+    <input type="radio"        name="op1"      value="+"/> + <br/>;
+    <input type="radio"        name="op2"      value="-"/> - <br/>;
+    <input type="radio"        name="op3"      value="/"/> / <br/>;
     <input type="submit" value="Submit">
 </form>
