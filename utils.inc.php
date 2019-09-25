@@ -1,9 +1,9 @@
 <?php
 ?>
 <form>
-<input type="text" placeholder="Mdp"/><br>
-<input type="radio" placeholder="Mdp"/><br>
-<input type="text" placeholder="Mdp"/><br>
+<input type="text" placeholder="ID"/><br>
+<input type="radio" placeholder="Sexe"/><br>
+<input type="text" placeholder="EMAIL"/><br>
     <input type="password" placeholder="Mdp" /><br>
     <input type="password" placeholder="Retapez Mdp" /><br>
 
