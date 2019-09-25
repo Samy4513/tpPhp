@@ -1,14 +1,14 @@
 <?php
 ?>
 <form>
-<input type="text" value="ID"/><br>
-<input type="radio" value="Sexe"/><br>
-<input type="text" value="E-Mail"/><br>
+<input type="text" placeholder="Mdp"/><br>
+<input type="radio" placeholder="Mdp"/><br>
+<input type="text" placeholder="Mdp"/><br>
     <input type="password" placeholder="Mdp" /><br>
     <input type="password" placeholder="Retapez Mdp" /><br>
 
 
-<input type="text" value="Telephone"/><br>
+<input type="text" placeholder="Mdp"/><br>
 <select name="Pays">
     <option value="France">France</option>
     <option value="Canada">Canada</option>
