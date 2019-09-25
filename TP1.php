@@ -6,9 +6,10 @@
 //    $jour2=date('d/m/Y',strtotime('2020-04-01'));
 //    echo $jour2.'<br>'.'<br>';
 
-    $jour=date('lFd,Y');
-    echo $jour.'<br>';
-    $jour2 = date('F , d , Y , g:i a');
-    echo $jour2.'<br>' ;
+
+<input checked="checked" type="radio" name="op" value="*"/>*<br/>
+<input type="radio" name="op1" value="+"/>+<br/>
+<input type="radio" name="op2" value="-"/>-<br/>
+<input type="radio" name="op3" value="/"/>/<br/>
 
 ?>
