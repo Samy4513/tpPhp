@@ -11,6 +11,6 @@
     <option value="Canada">Canada</option>
     <option value="Lou Martegue">Lou Martegue</option>
 </select><br>
-<input type="checkbox" value="Submit"/><br>
+<input type="checkbox" value="Submit"/>Conditions générales<br>
 <input type="submit" name="action" value="mailer"/><br>
 </form>
