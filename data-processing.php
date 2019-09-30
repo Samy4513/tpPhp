@@ -27,6 +27,9 @@ else
     {
         echo'<br/><strong>Boutonnongéré!</strong><br/>';
     }
+
+?>
+
 //$message='Voici vos identifiants d\'inscription:'.PHP_EOL;
 //$message.='Email:'.$email.PHP_EOL;
 //$message.='Motdepasse:'.PHP_EOL.$password;
