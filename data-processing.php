@@ -16,11 +16,12 @@ if($action=='mailer')
                   Mot de passe = " . $password;
         mail($to,$subject,$message, 'Salut');
         echo'<br/><strong>Mail Envoyé</strong><br/>';
+        echo $message;
 }
 else
     {
         echo'<br/><strong>Boutonnongéré!</strong><br/>';
     }
-$message='Voici vos identifiants d\'inscription:'.PHP_EOL;
-$message.='Email:'.$email.PHP_EOL;
-$message.='Motdepasse:'.PHP_EOL.$password;
+//$message='Voici vos identifiants d\'inscription:'.PHP_EOL;
+//$message.='Email:'.$email.PHP_EOL;
+//$message.='Motdepasse:'.PHP_EOL.$password;
