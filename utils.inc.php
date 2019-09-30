@@ -7,8 +7,6 @@
     <input type="password" placeholder="Mdp" name="password" /><br>
     <input type="password" placeholder="Retapez Mdp" /><br>
 
-
-<input type="text" placeholder="Mdp"/><br>
 <select name="Pays">
     <option value="France">France</option>
     <option value="Canada">Canada</option>
