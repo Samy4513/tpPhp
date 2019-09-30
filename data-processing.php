@@ -20,7 +20,7 @@ if($action=='mailer')
                   Mot de passe = " . $password;
         mail($to,$subject,$message);
         echo'<br/><strong>Mail Envoyé</strong><br/>';
-        echo $message;
+
 }
 
 else
