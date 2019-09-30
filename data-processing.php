@@ -1,4 +1,8 @@
+
+
 <?php
+include'utils.inc.php';
+
 $action = $_POST['action'];
 $email = $_POST['mail'];
 $ID = $_POST['ID'];
