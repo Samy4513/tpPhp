@@ -9,7 +9,7 @@ $password = $_POST['password'];
 
 if($action=='mailer')
     {
-        $to = 'samy.kanboui@etu.univ-amu.fr';
+        $to = $email;
         $subject = 'Inscription';
         $message ="Voici votre compte :
                     ID = ". $ID ."<br/>
