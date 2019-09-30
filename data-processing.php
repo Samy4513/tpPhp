@@ -1,7 +1,7 @@
 
 
 <?php
-include'utils.inc.php';
+
 
 $action = $_POST['action'];
 $email = $_POST['mail'];
@@ -22,6 +22,7 @@ if($action=='mailer')
         echo'<br/><strong>Mail Envoyé</strong><br/>';
         echo $message;
 }
+
 else
     {
         echo'<br/><strong>Boutonnongéré!</strong><br/>';
