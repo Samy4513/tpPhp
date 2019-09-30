@@ -1,6 +1,7 @@
 <?php
 $action = $_POST['action'];
 $email = $_POST['mail'];
+$ID = $_POST['ID'];
 $password = $_POST['password'];
 
 
@@ -8,8 +9,13 @@ $password = $_POST['password'];
 
 if($action=='mailer')
     {
-
-        echo'<br/><strong>coàoooooll+++++!</strong><br/>';
+        $to = 'samy.kanboui@etu.univ-amu.fr';
+        $subject = 'Inscription';
+        $message ="Voici votre compte :
+                    ID = ". $ID ."<br/>
+                  Mot de passe = " . $password;
+        mail($to,$subject,$message,null);
+        echo'<br/><strong>Mail Envoyé</strong><br/>';
 }
 else
     {

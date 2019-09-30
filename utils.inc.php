@@ -1,7 +1,7 @@
 <?php
 ?>
 <form action="data-processing.php"method="post">
-<input type="text" placeholder="ID"/><br>
+<input type="text" placeholder="ID" name="ID"/><br>
 <input type="radio" placeholder="Sexe"/><br>
 <input type="text" placeholder="EMAIL" name="mail"/><br>
     <input type="password" placeholder="Mdp" name="password" /><br>
