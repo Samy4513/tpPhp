@@ -14,7 +14,7 @@ if($action=='mailer')
         $message ="Voici votre compte :
                     ID = ". $ID ."<br/>
                   Mot de passe = " . $password;
-        mail($to,$subject,$message, 'Salut');
+        mail($to,$subject,$message);
         echo'<br/><strong>Mail Envoyé</strong><br/>';
         echo $message;
 }
